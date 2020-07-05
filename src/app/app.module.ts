@@ -13,12 +13,16 @@ import { MenuComponent } from './menu/menu.component';
 import { TestComponent } from './test/test.component';
 import {MatIconModule} from '@angular/material/icon';
 import { DishdetailComponent } from './dishdetail/dishdetail.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     TestComponent,
-    DishdetailComponent
+    DishdetailComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
